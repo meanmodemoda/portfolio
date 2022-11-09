@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Arial", monospace;
+  font-family: "DM Sans";
   color: #0d1e2d;
 }
 
@@ -22,6 +22,8 @@ a:hover {
   color: #000;
 }
 
+title,
+.navbar-brand,
 h1,
 h2,
 h3,
@@ -29,7 +31,7 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: "Arial";
+  font-family: "Marcellus";
 }
 
 .section {
