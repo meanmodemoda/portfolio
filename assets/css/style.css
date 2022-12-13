@@ -195,6 +195,17 @@ h6,
   font-weight: 700;
 }
 
+.documentation {
+  display: inline-block;
+  border: 1px solid blue;
+  padding: 10px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: blue;
+  transition: 0.2s all ease;
+  font-weight: 700;
+}
+
 .readmore:active,
 .readmore:focus,
 .readmore:hover {
