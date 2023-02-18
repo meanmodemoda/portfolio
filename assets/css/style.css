@@ -541,3 +541,8 @@ h6,
   /* background: red; */
   display: block;
 }
+
+.footnote {
+  font-family:Thasadith;
+  font-size:1rem;
+}
