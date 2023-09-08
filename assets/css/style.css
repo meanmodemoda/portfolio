@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "DM Sans";
+  font-family: "Italiana";
   color: #0d1e2d;
 }
 
@@ -31,7 +31,7 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: "Marcellus";
+  font-family: "Italiana";
 }
 
 .section {
@@ -250,10 +250,10 @@ h6,
 .list-line li:before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0.7rem;
-  width: 10px;
-  height: 2px;
+  left: 0.7rem;
+  top: 0.5rem;
+  width: 6px;
+  height: 1px;
   background: #000;
 }
 
@@ -533,11 +533,16 @@ h6,
 
 /* my customization */
 .caption {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
 .cc {
   padding-top: 0.5rem;
   /* background: red; */
   display: block;
+}
+
+.footnote {
+  font-family:Thasadith;
+  font-size:1rem;
 }
