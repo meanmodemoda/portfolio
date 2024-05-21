@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Fashion Resale User Analysis</title>
+  <title>Fashion Brand Ranking</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -67,65 +67,30 @@
               <div>
               <br>
   
-            <p>This is a SQL and Tableau project exploring a 98k user dataset of a French C2C fashion resale platform. I first ran some <a href="https://github.com/meanmodemoda/sample-sql-queries/blob/master/c2c-user-profile.sql" target="_blank">SQL queries</a>
-              to get a general sense of the data and decided to focus on overall user engagement and in-depth analysis of buying and selling behaviors.
+            <p>This is a Tableau project showcasing over two decades of development of top fashion brands in terms of brand value ranking as rated by Interbrand.
           </p>   
-  
+          <div class='tableauPlaceholder' id='viz1716300362076' style='position: relative'><noscript><a href='#'><img alt='Relative Ranking ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FashionBrandRanking2001-2023&#47;RelativeRanking&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FashionBrandRanking2001-2023&#47;RelativeRanking' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FashionBrandRanking2001-2023&#47;RelativeRanking&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716300362076');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1200px';vizElement.style.height='927px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1200px';vizElement.style.height='927px';} else { vizElement.style.width='100%';vizElement.style.height='1627px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
           <br>
-          <img src="assets/img/resale-cover.png" alt="Image" class="img-fluid">
-          <br>
-          <br>
-          <img src="assets/img/resale-user.png" alt="Image" class="img-fluid">
-          <br>
-          <br>
-          The exploratory data analysis revealed that I was dealing with a list of users who are mostly inactive and low engagement. 
-          <br>
-          <br>
-          <img src="assets/img/resale-buyer.png" alt="Image" class="img-fluid">
-          <br>
-          <br>
-          I then zoomed in on a subset of users who appeared more active. I found that for buyers, functions such as Product Wishes and Social Follows contribute to greater sales. 
-          <br> 
-          <br>
-          <img src="assets/img/resale-seller1.png" alt="Image" class="img-fluid">
-          <br>
-          <br>
-          <img src="assets/img/resale-seller2.png" alt="Image" class="img-fluid">
-          <br>
-          <br>
-          For sellers, it's worth noting that metrics such as Sell-Through and Pass Rate are relatively healthy by resale business standard. Social Follows and Product Listings are correlated with greater sales, however, they don't influence Sell-Through very much. 
-          <br>
-          <br>
-          
-          <img src="assets/img/resale-final.png" alt="Image" class="img-fluid">
-         
-          <br>
-          <br>
-          Finally, I looked into potential cross pollination between Buyers and Sellers and found that in terms of engagement, Buyer/Sellers are on par with Only Sellers, but much more active compared with Only Buyers. 
-          
-            <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
-        </div> 
+       
+              </div> 
            </div>
+            
+            <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
               <div class="sticky-content">
-                <h3 class="h3">Fashion Resale User Analysis</h3>
+                <h3 class="h3">Interbrand Fashion Brand Ranking</h3>
                 <p class="mb-4"><span class="text-muted">Data Storytelling</span></p>
 
                 <div class="mb-5">
-                  <p>In this data story, I took a deeper dive into user engagement data of a C2C fashion resale platform and saught to identify relationships of key resale metrics such as Sales, Listings, Wished, Social Follows, Sell-Through, and Pass Rate.
-
-                </div>
-
-                <h4 class="h4 mb-3">Charts I built:</h4>
-                <ul class="list-unstyled list-line mb-5">
-                  <li>Circle Dot Chart</li>
-                  <li>Treemap</li>
-                  <li>Area Chart</li>
-                  <li>Scatter Plot</li>
-                  <li>Slope Chart</li>
-                  <li>Image Dot Chart</li>
-                </ul>
-
-                <p><a href="https://public.tableau.com/app/profile/yangzhao/viz/FashionResaleUserProfileAnalysis2/Dashboard1" class="readmore" target="_blank">See Project</a></p>
+                  <p>In this set of dashboards, I wanted to display rankings of top fashion brands over the years in an elegant format. I learned to implement curved bump charts thanks to inspirations from Rody Zakovich and Ken Flerlage. 
+                  </div>
+  
+                  <h4 class="h4 mb-3">Charts I built:</h4>
+                  <ul class="list-unstyled list-line mb-5">
+                    <li>Sigmoid Curved Bump Chart</li>
+                    <li>Sigmoid Area Bump Chart</li>
+                  </ul>
+  
+                  <p><a href="https://public.tableau.com/app/profile/yangzhao/viz/FashionBrandRanking2001-2023/RelativeRanking" class="readmore" target="_blank">See Project</a></p>
               </div>
             </div>
           </div>
