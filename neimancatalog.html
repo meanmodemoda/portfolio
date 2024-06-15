@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>In & Out of Neiman Marcus</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Thasadith&family=Italiana&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPortfolio - v4.9.1
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Back to Portfolio</a>
+      <!-- <a href="#" class="burger" data-bs-toggle="collapse" data-bs-target="#main-navbar"> -->
+        <span></span>
+      </a>
+    </div>
+  </nav>
+ 
+
+  <main id="main">
+
+    <section class="section">
+      <div class="container">
+        <div class="row mb-4 align-items-center">
+          <div class="col-md-6" data-aos="fade-up">
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section pb-0">
+        <div class="container">
+          <div class="row align-items-stretch">
+            <div class="col-md-8" data-aos="fade-up">
+              <div>
+              <br>
+              <img src="assets/img/catalog-cover.png" alt="Image" class="img-fluid">
+              <br>
+              <br>
+              <h3>Concept</h3>
+            <p>
+              A fashion catalog is more than just a list of names. When looking at a catalog from a historical snapshot view, trends emerge and patterns develop. From the rise of the contemporary segment to the downfall of diffusion lines, and from the transformation of streetwear from subculture to high fashion, to luxury brands&apos; collective reluctance to transact online, in the ever-changing landscape of fashion, who&apos;s in and who&apos;s out of a catalog paints the picture of the zeitgeist: what and how people wear and how businesses respond to it.
+          </p>   
+          <br>
+          <br>
+          <h3>Data Acquisition</h3>
+
+<p>I first used <b>Beautifulsoup</b> to scrape the snapshots of Neiman Marcus&apos; women&apos;s fashion catalog on Wayback Machine. I extracted the data and gave each designer a binary flag of 0 and 1 for each year it was on the catalog. I then transformed the data and found the entry and exit (if available) years for the designer and added in context such as age, founding year, and commentary.</p>
+          <img src="assets/img/catalog-data.png" alt="Image" class="img-fluid">
+          
+          <br>
+          <br>
+          <h3>Chart Considerations</h3>
+
+<p>I went through several iterations on chart type as it&apos;s a lot of data to display for each year and I would like to introduce many different dimensions. I experimented with beeswarm, packed bubble charts and eventually decided to use small multiples of radial bubble chart as this combination is more generous with space and allows me to divide the data into a few more dimensions - size for age, radius for status, color for segment.</p>
+          <img src="assets/img/catalog-sketches.png" alt="Image" class="img-fluid">
+          <br>
+          <br>
+          <h3>Design</h3>
+          I went with a low-tech design using watercolor, paper grain, and hand written font. There are some legibility issues with the dots and hopefully with the help of filters and highlighter, they are mitigated.
+          <br>    
+          <br>    
+          <img src="assets/img/catalog-screenshot.png" alt="Image" class="img-fluid">
+    
+              </div> 
+           </div>
+            
+            <div class="col-md-3 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="sticky-content">
+                <h3 class="h3">In & Out of Neiman Marcus</h3>
+                <p class="mb-4"><span class="text-muted">Data Viz</span></p>
+
+                <div class="mb-5">
+                  <p>In this Data Viz, I invite fashion enthusiasts to examine Neiman Marcus' historical catalog from 2004 to 2022. By observing the volume trend of each segment from contemporary to luxury, who entered and exited alongside with whom and when, you can almost paint a picture of what happened in fashion in the past two decades!
+
+                  </div>
+  
+                  <h4 class="h4 mb-3">Charts I built:</h4>
+                  <ul class="list-unstyled list-line mb-5">
+                    <li>Radial Bubble Chart</li>
+                    <li>Small Multiples</li>
+                
+                  </ul>
+  
+                  <p><a href="https://public.tableau.com/app/profile/yangzhao/viz/FashionxWaybackMachineNeimanMarcusCatalog/Dashboard" class="readmore" target="_blank">See Project</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+   
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -546,3 +546,17 @@ h6,
   font-family:Thasadith;
   font-size:1rem;
 }
+.code-block {
+  background-color: #f5f5f5;  /* Light grey background */
+  color: #333;               /* Dark grey text */
+  padding: 10px;             /* Padding around the code */
+  border: 1px solid #ccc;    /* Light grey border */
+  border-radius: 4px;        /* Rounded corners */
+  font-family: "Courier New", Courier, monospace;  /* Monospaced font */
+  font-size: 14px;           /* Font size */
+  overflow-x: auto;          /* Horizontal scrolling for long lines */
+}
+
+pre {
+  margin: 0;                /* Remove default margin */
+}
